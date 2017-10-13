@@ -1,2 +1,5 @@
 <h1>Pages#home</h1>
-<p>Bonjour Mr <%= @var %></p>
+<p>Bonjour Mr</p>
+<% @var.each do |user| %>
+  <p><%= user.name %></p>
+<% end %>

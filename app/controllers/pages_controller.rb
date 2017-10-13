@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
   def home
-    @var = "zakaria"
+    @var = User.all
   end
 end

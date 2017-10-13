@@ -12,7 +12,7 @@ class StudentsControllerTest < ActionController::TestCase
   end
 
   test "should get new" do
-    get :newe
+    get :new
     assert_response :success
   end
 
@@ -25,12 +25,12 @@ class StudentsControllerTest < ActionController::TestCase
   end
 
   test "should show student" do
-    get :showe, id: @student
+    get :show, id: @student
     assert_response :success
   end
 
   test "should get edit" do
-    get :edite, id: @student
+    get :edit, id: @student
     assert_response :success
   end
 

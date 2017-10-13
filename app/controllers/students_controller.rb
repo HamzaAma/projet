@@ -9,16 +9,16 @@ class StudentsController < ApplicationController
 
   # GET /students/1
   # GET /students/1.json
-  def showe
+  def show
   end
 
   # GET /students/new
-  def newe
+  def new
     @student = Student.new
   end
 
   # GET /students/1/edit
-  def edite
+  def edit
   end
 
   # POST /students

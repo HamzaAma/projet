@@ -11,7 +11,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171013182136) do
+ActiveRecord::Schema.define(version: 20171013185812) do
+
+  create_table "students", force: true do |t|
+    t.string   "name"
+    t.string   "surname"
+    t.date     "birthday"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string "name"

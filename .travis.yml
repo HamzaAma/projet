@@ -9,3 +9,4 @@ deploy:
   app: hamzaama
   on:
     repo: HamzaAma/projet
+ run: "rake db:migrate"

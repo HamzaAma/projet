@@ -5,7 +5,7 @@ deploy:
   provider: heroku
   api_key: 
    secure: xcebDx+KTvK1dEBUbeWiUFGJI85h2HloZkNP6qiKdGP5epWEiNQd6ctYk1Nnym79VKLnmN1c502J5s4ESJVzEF+u2GzDHi8XUlvEpiL1uFgVDHwBi2H+ZTQ8z7CrX/mIKxyzZ1m9bICJYezhQEFrUHyLQMfJzofw16LSj7SQTQ0NGYtlfXqhhzlJnhvdECrP5VTQUidRhIXD49ECnnY8/2niZkLDpIG714ueZUxvyQf5MW8qmAk5GFPIr998eQF/QPlYkC5mzWB0IxpXFbcSQPpadZ7hg2TnMPxs5KVEpX+TEeM4ZTfAN2bLNQ84OuUNG9yhazqGZRCnW1WYXgSep7HlzMRwufMU+Z9mTcXeE/RwVRbS0oiDT4H8tDFQCLZHIUlDdEUiXkQ8I7kV1Nuh7i6AErPvqN1ABw8qNie+nAv93W8Xa/7LCO+RHwr8NSesqN3AXI8foHNbrT4IemF4V9aALjUOSsYItMxWTlI9cRrK/K+Fe47faqi2yN/bX5bmAstrXNMOcIigUiPLxSzxFmzyk+A5hpkILoP6Ai46R8Pbfbhj5cQCcyXM5o7EKGFOU1/YF6KE1qzQLW7rpzyL+7xnrPHmE77yGCN02Pnp9xDm8vHVa3nrpY1B1vq59V0Xuvv9PwSexRuMGoMDYQ83lgaGQOBwpC9Ml3wy3Mc7iWc=
-   run: "rake db:migrate"
+   
   app: hamzaama
   on:
     repo: HamzaAma/projet
